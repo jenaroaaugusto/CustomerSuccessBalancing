@@ -34,4 +34,4 @@ jobs:
         with:
           action_config_path: ".github/config/rubocop_linter_action.yml" # Note: this is the default location
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
